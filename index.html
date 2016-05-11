@@ -1,17 +1,55 @@
 <html>
-  <head>
-    <title>The Man Who Hangs</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <h1>JS Final Project</h1>
+ <head>
+   <title>Music Box</title>
+   <link rel="stylesheet" href="style.css"/>
+ </head>
+   <body>
 
-    <p> Hang-Man </p>
+   <audio id= "cAudio">
+     <source src="c_note.mp3" type="audio/mpeg"></source>
+     <source src="c_note.ogg" type="audio/ogg"></source>
+     <source src="c_note.wav" type="audio/wav"></source>
+   </audio>
+   <audio id="dAudio">
+     <source src ="d_note.mp3" type="audio/mpeg"></source>
+     <source src="d_note.ogg" type="audio/ogg"></source>
+     <source src="d_note.wav" type="audio/wav"></source>
+   </audio>
+   <audio id="eAudio">
+     <source src ="e_note.mp3" type="audio/mpeg"></source>
+     <source src="e_note.ogg" type="audio/ogg"></source>
+     <source src="e_note.wav" type="audio/wav"></source>
+   </audio>
+   <audio id="fAudio">
+     <source src ="f_note.mp3" type="audio/mpeg"></source>
+     <source src="f_note.ogg" type="audio/ogg"></source>
+     <source src="f_note.wav" type="audio/wav"></source>
+   </audio>
+   <audio id= "gAudio">
+     <source src ="g_note.mp3" type="audio/mpeg"></source>
+     <source src="g_note.ogg" type="audio/ogg"></source>
+     <source src="g_note.wav" type="audio/wav"></source>
+   </audio>
+   <audio id= "aAudio">
+     <source src ="a_note.mp3" type="audio/mpeg"></source>
+     <source src="a_note.ogg" type="audio/ogg"></source>
+     <source src="a_note.wav" type="audio/wav"></source>
+   </audio>
+   <audio id="bAudio">
+     <source src ="b_note.mp3" type="audio/mpeg"></source>
+     <source src="b_note.ogg" type="audio/ogg"></source>
+     <source src="b_note.wav" type="audio/wav"></source>
+   </audio>
 
-    <script src="script1.js"></script>
+  <div id= "soundBox">
+     <div id= "a" class= "Box"></div>
+     <div id= "b" class= "Box"></div>
+     <div id= "c" class= "Box"></div>
+     <div id= "d" class= "Box"></div>
+     <div id= "e" class= "Box"></div>
+     <div id= "f" class= "Box"></div>
+     <div id= "g" class= "Box"></div>
 
-     <input type="text" name="letter" id="letter" placeholder="Give a letter" />
-
-
-  </body>
-</html>
+   </div>
+       <script src="script1.js"></script>
+   </html>

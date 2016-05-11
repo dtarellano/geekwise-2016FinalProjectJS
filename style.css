@@ -1,2 +1,115 @@
-h1 { color: green; }
-p { color: brown; }
+body {
+ background-color:black;
+}
+#soundBox {
+ height:116px;
+ width: 812px;
+ padding-right: 10px;
+ padding-top: 50px;
+ margin:auto;
+ position: absolute;
+ top:0; left:0; right:0; bottom:0;
+}
+.box {
+ height:100px;
+ width: 100px;
+ margin-left: 10px;
+ margin-top: 10px;
+ float:left;
+}
+#c {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#d {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#e {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#f {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#g {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#a {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#b {
+   background-color: #29a329;
+   border: 3px solid #00ff00;
+}
+
+#h {
+   background-color: #3e181b;
+   border: 3px solid #00ff00;
+}
+#a:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#b:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#c:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#d:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#e:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#f:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#g:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+#h:hover {
+   background-color:#6fdc6f;
+   cursor: pointer;
+}
+
+#a:active {
+   background-color:#000000;
+}
+#b:active {
+   background-color:#000000;
+}
+#c:active {
+   background-color:#000000;
+}
+#d:active {
+   background-color:#000000;
+}
+#e:active {
+   background-color:#000000;
+}
+#f:active {
+   background-color:#000000;
+}
+#g:active {
+   background-color:#000000;
+}
+#h:active {
+   background-color:#000000;
+}
