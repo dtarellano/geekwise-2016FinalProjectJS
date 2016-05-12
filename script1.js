@@ -1,15 +1,15 @@
-var cNote = document.getElementById('cAudio');
-    document.querySelector("#c").addEventListener("mouseover", function(){
+var aNote = document.getElementById('aAudio');
+    document.querySelector("#a").addEventListener("mouseover", function(){
         cNote.currentTime= 0;
         cNote.play()
 });
-var aNote = document.getElementById('aAudio');
-    document.querySelector("#a").addEventListener("mouseover", function(){
+var bNote = document.getElementById('bAudio');
+    document.querySelector("#b").addEventListener("mouseover", function(){
         aNote.currentTime= 0;
         aNote.play()
 });
-var bNote = document.getElementById('bAudio');
-    document.querySelector("#b").addEventListener("mouseover", function(){
+var cNote = document.getElementById('cAudio');
+    document.querySelector("#c").addEventListener("mouseover", function(){
         bNote.currentTime= 0;
         bNote.play()
 });
